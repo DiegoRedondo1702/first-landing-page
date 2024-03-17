@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 0 150px;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+li {
+    font-size: 18px;
+}
+
+.general {
+    display: flex;
+    padding: 100px 150px;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 450px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.bethesda_xbox {
+    width: 450px;
+    height: 225px;
+}
+
+.sign-button {
+    padding: 5px 25px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.container-img {
+    display: flex;
+    column-gap: 50px;
+}
+
+.img-container {
+    width: 150px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border: 3px #3882f6 solid;
+    border-radius: 8px;
+}
+
+.img-text {
+    margin: 8px 0;
+    color: #1f2937;
+    text-align: center;
+    font-weight: bold;
+}
+
+.phrase {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+    padding: 100px 250px;
+}
+
+.phrase-text {
+    font-size: 36px;
+    font-style: 'Roboto';
+    font-weight: 300;
+    margin: 0;
+}
+
+.phrase-ref {
+    font-weight: 800;
+    align-self: flex-end;
+    margin: 0;
+    font-size: 20px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+.sign-up-container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    flex-basis: 700px;
+    justify-content: space-between;
+    padding: 40px 100px;
+    align-items: center;
+}
+
+.sign-up-title {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.sign-up-text {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.sign-button-alt {
+    background-color: #3882f6;
+    color: white;
+    border: 2px #e5e7eb solid;
+    border-radius: 8px;
+    padding: 5px 25px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 20px 0;
+    font-weight: 500;
+}
