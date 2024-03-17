@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( https://diegoredondo1702.github.io/Introduction_to_Flexbox/)
+[Live Demo Link]( https://diegoredondo1702.github.io/first-landing-page/)
 
 
 ## Getting Started
