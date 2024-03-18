@@ -92,6 +92,7 @@ li {
 
 .img-container {
     width: 150px;
+    object-fit:cover;
 }
 
 .img {
